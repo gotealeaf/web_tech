@@ -11,7 +11,7 @@
       <h1> Surf's Up! </h1>
       <div class="wave-journal">
         {{#journal_entry}}
-          <form action="/update_journal_entry/?id={{id}}" method="post">
+          <form action="/update_journal_entry?id={{id}}" method="post">
             <label for="entry-title"> Title </label>
             <input type="text" name="title" id="entry-title" value={{title}}>
             <label for="entry-content"> Content </label>
