@@ -13,8 +13,12 @@
         {{#journal_entry}}
           <h4><a href="#" class="subheader">{{title}}</a></h4>
           <p>{{content}}</p>
+          <!-- <a href="/edit_journal_entry?id={{id}}"> Edit </a> -->
         {{/journal_entry}}
         <a href="/"> Back to Home Page </a>
+        <!-- <form action="/delete_journal_entry?id={{id}}" method="post" class="delete-form"> -->
+        <!--   <input type="submit" value="Delete"> -->
+        <!-- </form> -->
       </div>
     </div>
   </body>
